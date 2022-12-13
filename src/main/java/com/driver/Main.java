@@ -11,20 +11,21 @@ public class Main {
 
 
         double ans2 = p.product(10.5, 9.7);
-        System.out.println(ans+" "+ans1+" "+ans2);
-    }
-}
-
-public static class Product {
-    public int product(int x, int y) {
-        return x * y;
+        System.out.println(ans + " " + ans1 + " " + ans2);
     }
 
-    public int product(int x, int y, int z) {
-        return x * y * z;
-    }
 
-    public double product(double x, double y) {
-        return x * y;
+    public static class Product {
+        public int product(int x, int y) {
+            return x * y;
+        }
+
+        public int product(int x, int y, int z) {
+            return x * y * z;
+        }
+
+        public double product(double x, double y) {
+            return x * y;
+        }
     }
 }
